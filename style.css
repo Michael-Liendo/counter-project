@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #505057;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#counter,
+.button {
+  font-family: "Lato", sans-serif;
+}
+
+#counter {
+  color: #7cf3b8;
+  font-size: 2.5rem;
+}
+
+.button {
+  margin: 0 50px;
+  font-size: larger;
+  color: #4d8a9b;
+}
